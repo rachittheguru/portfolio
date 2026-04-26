@@ -245,7 +245,6 @@ class FuturisticPortfolio {
         });
     }
 
-    // Skill Bars Animation
     setupSkillBars() {
         const skillBars = document.querySelectorAll('.skill-progress');
         
@@ -263,7 +262,6 @@ class FuturisticPortfolio {
         skillBars.forEach(bar => observer.observe(bar));
     }
 
-    // Stats Counter
     setupStatsCounter() {
         const statNumbers = document.querySelectorAll('.stat-number');
         
