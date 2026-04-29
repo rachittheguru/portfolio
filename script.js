@@ -369,12 +369,11 @@ class FuturisticPortfolio {
     }
 }
 
-// Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     new FuturisticPortfolio();
 });
 
-// Preloader
+
 window.addEventListener('load', () => {
     document.body.style.opacity = '1';
 });
