@@ -244,7 +244,6 @@ class FuturisticPortfolio {
             });
         });
     }
-// start the skills  and set up
     setupSkillBars() {
         const skillBars = document.querySelectorAll('.skill-progress');
         
